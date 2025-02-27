@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       
       - name: Build Complete Book
         uses: xu-cheng/latex-action@v2
@@ -13,7 +13,7 @@ jobs:
           root_file: translations/volume-1/EMWv1.tex
           
       - name: Upload Final PDF
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: volume-1-complete
           path: translations/volume-1/EMWv1.pdf

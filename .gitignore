@@ -1,0 +1,39 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.dvi
+
+# PDF output files
+*.pdf
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build directories
+_build/
+build/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Translation working files
+*.bak
+*.sav

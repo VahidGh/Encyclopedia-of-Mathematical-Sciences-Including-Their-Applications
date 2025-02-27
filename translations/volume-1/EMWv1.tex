@@ -1,0 +1,55 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{anyfontsize}
+
+\geometry{
+    paperwidth=7.5in,
+    paperheight=9.25in,
+    margin=1in
+}
+
+\begin{document}
+% Include cover content directly
+\begin{center}
+\vspace*{1cm}
+{\fontsize{36}{42}\selectfont ENCYCLOPEDIA}
+
+\vspace{0.5cm}
+{\fontsize{24}{30}\selectfont OF}
+
+\vspace{0.5cm}
+{\fontsize{36}{42}\selectfont MATHEMATICAL}
+
+\vspace{0.5cm}
+{\fontsize{36}{42}\selectfont SCIENCES}
+
+\vspace{1cm}
+{\fontsize{18}{22}\selectfont INCLUDING THEIR APPLICATIONS}
+
+\vspace{2cm}
+{\fontsize{20}{26}\selectfont VOLUME ONE:}
+
+\vspace{0.5cm}
+{\fontsize{24}{30}\selectfont ARITHMETIC AND ALGEBRA}
+
+\vspace{1.5cm}
+{\fontsize{18}{22}\selectfont FELIX KLEIN}
+
+\vspace{0.8cm}
+{\fontsize{14}{16}\selectfont Translated from the original German work\\
+"Encyklopädie der Mathematischen Wissenschaften mit Einschluss ihrer Anwendungen"}
+
+\vspace{0.8cm}
+{\fontsize{16}{20}\selectfont English Translation by\\[0.3cm]
+S. Vahid Ghayoomie}
+
+\end{center}
+
+\tableofcontents
+\include{pages/page001}
+\cleardoublepage
+\include{pages/page003}
+% Continue with other pages
+\end{document}

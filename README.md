@@ -1,4 +1,4 @@
-# Translation Project: Encyclopedia of Mathematical Sciences and Their Applications
+# Translation Project: Encyclopedia of Mathematical Sciences Including Their Applications
 ## Felix Klein's Encyklopädie der Mathematischen Wissenschaften mit Einschluss ihrer Anwendungen
 
 This project aims to translate the seminal work "Encyklopädie der Mathematischen Wissenschaften mit Einschluss ihrer Anwendungen" (Encyclopedia of Mathematical Sciences Including Their Applications) by Felix Klein from German to English.

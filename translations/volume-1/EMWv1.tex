@@ -3,6 +3,7 @@
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{anyfontsize}
+\usepackage{fancyhdr}
 
 \geometry{
     paperwidth=7.5in,
@@ -11,6 +12,9 @@
 }
 
 \begin{document}
+% Remove page numbers from cover
+\pagenumbering{gobble}
+
 % Include cover content directly
 \begin{center}
 \vspace*{1cm}
@@ -50,20 +54,44 @@ S. Vahid Ghayoomie, Claude A. Sonnet}
 
 \end{center}
 
-% \tableofcontents
-\cleardoublepage
 \include{pages/page003}
 \include{pages/page004}
+
+% \tableofcontents
+% Start roman numerals for introduction
+\cleardoublepage
+
 \include{pages/page005}
+
+\pagenumbering{roman}
+\setcounter{page}{6}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\thepage}
+\fancyhead[RO]{\thepage}
+\fancyhead[RE]{Introductory Report on the Encyclopedia Enterprise}
+\fancyhead[LO]{Introductory Report on the Encyclopedia Enterprise}
+\renewcommand{\headrulewidth}{0pt}
+
 \include{pages/page006}
 \include{pages/page007}
 \include{pages/page008}
 \include{pages/page009}
-\include{pages/page0010}
-\include{pages/page011}
-\include{pages/page012}
-\include{pages/page013}
-\include{pages/page014}
-\include{pages/page015}
+\include{pages/page010}
+% \include{pages/page011}
+% \include{pages/page012}
+% \include{pages/page013}
+% \include{pages/page014}
+% \include{pages/page015}
+% \include{pages/page016}
+% \include{pages/page017}
+% \include{pages/page018}
+% \include{pages/page019}
+% \include{pages/page020}
+
+% Switch to arabic numbers for main content
+\cleardoublepage
+\pagenumbering{arabic}
+
 % Continue with other pages
 \end{document}

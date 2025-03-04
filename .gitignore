@@ -14,12 +14,15 @@
 
 # PDF output files
 *.pdf
+!translations/volume-1/EMWv1.pdf
 
 # Editor and IDE files
 .vscode/
 .idea/
 *.swp
 *~
+
+.dev/
 
 # Build directories
 _build/

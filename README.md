@@ -1,7 +1,7 @@
 # Translation Project: Encyclopedia of Mathematical Sciences Including Their Applications
 ## Felix Klein's Encyklopädie der Mathematischen Wissenschaften mit Einschluss ihrer Anwendungen
 
-This project aims to translate the seminal work "Encyklopädie der Mathematischen Wissenschaften mit Einschluss ihrer Anwendungen" (Encyclopedia of Mathematical Sciences Including Their Applications) by Felix Klein from German to English.
+This project aims to translate the seminal work "Encyklopädie der Mathematischen Wissenschaften mit Einschluss ihrer Anwendungen" (Encyclopedia of Mathematical Sciences Including Their Applications) by Felix Klein from German to English after more than 100 years of its initial publication.
 
 ## About the Original Work
 
@@ -75,7 +75,7 @@ For questions or collaboration inquiries, please open an issue in this repositor
 
 ## Progress Tracking
 
-- [ ] Volume 1: Arithmetic and Algebra
+- [ ] Volume 1: Arithmetic and Algebra ([in-progress PDF file](https://github.com/VahidGh/Encyclopedia-of-Mathematical-Sciences-Including-Their-Applications/blob/main/translations/volume-1/EMWv1.pdf))
 - [ ] Volume 2: Analysis
 - [ ] Volume 3: Geometry
 - [ ] Volume 4: Mechanics

@@ -11,6 +11,8 @@
 \usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{ragged2e}
+\usepackage{multirow}
+\usepackage{makecell}
 
 \geometry{
     paperwidth=7.5in,
@@ -146,11 +148,9 @@ S. Vahid Ghayoomie, Claude A. Sonnet}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
 
-\foreach \n in {40,...,70}{%
+\foreach \n in {40,...,65}{%
     \include{pages/page\ifnum\n<10 00\else 0\fi\n}%
 }
-
-
 
 }
 

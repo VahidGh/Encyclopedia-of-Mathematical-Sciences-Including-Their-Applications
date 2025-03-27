@@ -152,6 +152,25 @@ S. Vahid Ghayoomie, Claude A. Sonnet}
     \include{pages/page\ifnum\n<10 00\else 0\fi\n}%
 }
 
+% Start of section I A 2.
+\pagenumbering{gobble}
+\include{pages/page066}
+
+\pagenumbering{arabic}
+\setcounter{page}{29}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\thepage}
+\fancyhead[RO]{\thepage}
+\fancyhead[RE]{I A 2. COMBINATORICS}
+% \fancyhead[LO]{1. Counting and Numbers}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
+
+\foreach \n in {67,...,99}{%
+    \include{pages/page\ifnum\n<10 00\else 0\fi\n}%
+}
+
 }
 
 

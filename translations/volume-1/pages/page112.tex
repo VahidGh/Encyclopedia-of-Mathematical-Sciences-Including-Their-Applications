@@ -1,0 +1,45 @@
+\thispagestyle{fancy}
+
+\vspace{0.5cm}
+
+\textbf{18. So-called Indeterminate Expressions.} If the $\lim a_\nu$, $\lim b_\nu$, ... occurring in eq. (5), (6) become $\infty$ or $0$, then on the \textit{left} sides of those equations arise in part so-called \textit{indeterminate expressions}\textsuperscript{130)} (such as: $\infty - \infty$, $0 \cdot \infty$, $\frac{\infty}{\infty}$, $\frac{0}{0}$, $0^0$, $\infty^0$ etc.), whose \textit{"true values"} one is accustomed to designate, not very aptly, as the \textit{limit values} standing on the \textit{right} (insofar as these have a definite meaning). Although the methods for determining such limit values gain their full generality only through the introduction of a \textit{continuous} variable in place of the variable \textit{whole} number $\nu$ and in this form belong to differential calculus\textsuperscript{131)}, they are nevertheless ultimately based (like the whole theory of functions of \textit{continuous} variables) on certain simple theorems about limit values of ordinary sequences of numbers. Here belong the following relations due to \textit{Cauchy}\textsuperscript{132)}.
+
+One has
+\begin{align}
+\lim \frac{a_\nu}{\nu} = \lim (a_{\nu+1} - a_\nu) \quad \text{(Example: } \lim \frac{\log \nu}{\nu} = 0, \lim \frac{e^\nu}{\nu} = \infty\text{)}
+\end{align}
+
+and for $a_\nu > 0$:
+\begin{align}
+\lim a_\nu^{\frac{1}{\nu}} = \lim \frac{a_{\nu+1}}{a_\nu} \quad \text{(Example: } \lim \sqrt[\nu]{\nu} = 1, \quad \lim \sqrt[\nu]{\nu!} = \infty\text{)},
+\end{align}
+
+provided that the limit values standing on the \textit{right} (in the broader sense) \textit{exist}\textsuperscript{133)} (but not conversely).
+
+\textit{Stolz} has generalized the first of these theorems as follows\textsuperscript{134)}:
+
+If $(m_\nu)$ is \textit{monotonic} and: $\lim m_\nu = \pm \infty$ or: $\lim m_\nu = 0$, then:
+\begin{align}
+\lim \frac{a_\nu}{m_\nu} = \lim \frac{a_{\nu+1} - a_\nu}{m_{\nu+1} - m_\nu},
+\end{align}
+
+if the limit value standing on the \textit{right} (in the broader sense) exists.
+
+\vfill
+\leftline{\rule{2in}{0.4pt}}
+\vspace{0.2cm}
+{
+\footnotesize
+One can, however, also use the existence of the limit value $\lim (1 + \frac{1}{\nu})^\nu$ for the \textit{definition} of the power with arbitrary real exponents: cf. \textit{Th. Wulf}, Wiener Monatsh. 8, p. 43 ff. This method can, by the way, also be transferred to complex values of $a$; cf. \textit{J. A. Serret}, Calcul diff. 1 (or \textit{Serret-A. Harnack} 1), Art. 366.
+
+130) In \textit{Cauchy}: Valeurs singulières (Anal. algébr. p. 45).
+
+131) Cf. II A 1.
+
+132) Anal. algébr. p. 59. (The relevant theorems are there initially proven in the more general form, where $f(x)$ takes the place of $a_\nu$, and derived through specialization $x = \nu$.)
+
+133) I.e., are finite or infinite with definite sign.
+
+134) Math. Ann. 14 (1879), p. 232. Allg. Arithm. 1, p. 173.
+
+}
